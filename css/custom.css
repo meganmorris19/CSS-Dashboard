@@ -1,0 +1,223 @@
+.container-fluid#menu {
+  background: linear-gradient(to right, #134670, #144c7c, #134670);
+  height: 111px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+div.container-fluid#mini {
+  background: linear-gradient(#2498f4, #1d86d9);
+  height: 44px;
+}
+
+div.row#dash {
+  background: #33cc66;
+  border-radius: 7px;
+  height: 75px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* border */
+.gray-border {
+  border: 15px solid;
+  border-radius: 7px;
+  color: #f6f6f6;
+  margin-left: -15px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* headers */
+
+h1 /* "Dashboard" */ {
+  color: white;
+  font-size: 3.0112500301128em;
+  margin-top: 14px;
+}
+
+h2 /*orange announcment title*/ {
+  color: #fe7f13;
+  font-size: 1.1710416783772em;
+}
+
+h3 /* inside titles */ {
+  color: #2498f4;
+  font-size: 2.6766666934336em;
+}
+
+h3#tasks {
+    padding-left: 10px;
+}
+
+/* paragraphs */
+#announcement-text {
+  color: #777777;
+  font-size: 1.1710416783772em;
+}
+
+div.form-group#form {
+  margin-top: 20px;
+}
+
+div.row#ad {
+  background: #2498f4;
+  height: 220px;
+  position: relative;
+}
+
+div.container-fluid#footer {
+  background: linear-gradient(#f5f5f5, #fbfbfb);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* shadow http://www.w3schools.com/css/css3_shadows.asp */
+  color: #b0b0b0;
+  height: 50px;
+}
+
+#mini-menu{
+  color: white;
+  display: inline-block;
+  float: right;
+  padding: 0px;
+  text-align: center;
+}
+
+
+div.box {
+  background-color: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+  height: 160px;
+}
+
+div.adspace-1 {
+  padding-top: 30px;
+}
+
+div.adspace-2 {
+  padding-top: 30px;
+}
+
+div.adspace-3 {
+  padding-top: 30px;
+}
+
+/* images */
+img#ad-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 100;
+}
+
+img#ad-3 {
+  float: right;
+}
+
+/* icons */
+span#task-icon {
+  color: #999999;
+  float: right;
+  font-size: 1em;
+}
+
+/* font */
+body, h1, h2, h3, p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* sprite */
+.sprite {
+  display:block;
+}
+
+/* header elements */
+.mini {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #1c85d8;
+  padding: 10px;
+  text-align: center;
+}
+
+.help {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #1c85d8;
+  padding: 10px;
+  text-align: center;
+}
+
+.settings {
+  padding: 10px;
+  text-align: center;
+}
+
+.header-text {
+  padding-top: 13px;
+  color: white;
+}
+
+a.header-links {
+  color: #FFFFFF;
+}
+
+/*footer elements */
+
+a.tutorials {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #DDDDDD;
+  color: #b0b0b0;
+  padding: 10px;
+  text-align: center;
+}
+
+a.support {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #DDDDDD;
+  color: #b0b0b0;
+  padding: 10px;
+  text-align: center;
+}
+
+a.blog {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #DDDDDD;
+  color: #b0b0b0;
+  padding:10px;
+  text-align: center;
+}
+
+div.footer-text {
+  padding-top: 15px;
+  color: #b0b0b0;
+}
+
+a.footer-links {
+  color: #2498f2;
+  font-weight: bold;
+}
+
+a.logout {
+  font-weight: normal;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #DDDDDD;
+  padding: 10px;
+}
+
+/* table */
+
+td.task-list {
+  font-size: 1.7565625175658em;
+  color: #b0b0b0;
+}
+
+td.rec-list {
+  font-size: 1.3383333467168em;
+  color: #777777;
+}

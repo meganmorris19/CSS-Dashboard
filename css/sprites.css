@@ -1,0 +1,222 @@
+.s-1-gray{
+background-image: url("sprites.png");
+background-position: -130px -341px;
+width: 24px;
+height: 24px;
+}
+.s-2-green{
+background-image: url("sprites.png");
+background-position: -95px -340px;
+width: 24px;
+height: 24px;
+}
+.s-3-green{
+background-image: url("sprites.png");
+background-position: -63px -341px;
+width: 24px;
+height: 24px;
+}
+.s-4-green{
+background-image: url("sprites.png");
+background-position: -34px -344px;
+width: 24px;
+height: 24px;
+}
+.analytics-blue{
+background-image: url("sprites.png");
+background-position: -136px 0;
+width: 58px;
+height: 66px;
+}
+.analytics-green{
+background-image: url("sprites.png");
+background-position: -140px -80px;
+width: 58px;
+height: 66px;
+}
+.article-green{
+background-image: url("sprites.png");
+background-position: -7px -348px;
+width: 19px;
+height: 23px;
+}
+.blue-msg{
+background-image: url("sprites.png");
+background-position: -72px 0;
+width: 58px;
+height: 65px;
+}
+.check-green{
+background-image: url("sprites.png");
+background-position: -202px -402px;
+width: 22px;
+height: 20px;
+}
+.customers-blue{
+background-image: url("sprites.png");
+background-position: -274px 0;
+width: 62px;
+height: 64px;
+}
+.customers-green{
+background-image: url("sprites.png");
+background-position: -276px -74px;
+width: 62px;
+height: 64px;
+}
+.dashboard-blue{
+background-image: url("sprites.png");
+background-position: -201px 0;
+width: 59px;
+height: 73px;
+}
+.dashboard-green{
+background-image: url("sprites.png");
+background-position: -206px -79px;
+width: 59px;
+height: 73px;
+}
+.diagonal{
+background-image: url("sprites.png");
+background-position: -8px -247px;
+width: 84px;
+height: 77px;
+}
+.facebook-rollover{
+background-image: url("sprites.png");
+background-position: -188px -442px;
+width: 16px;
+height: 16px;
+}
+.facebook{
+background-image: url("sprites.png");
+background-position: -189px -464px;
+width: 16px;
+height: 16px;
+}
+.foursquare-rollover{
+background-image: url("sprites.png");
+background-position: -162px -439px;
+width: 16px;
+height: 16px;
+}
+.foursquare{
+background-image: url("sprites.png");
+background-position: -163px -464px;
+width: 16px;
+height: 16px;
+}
+.help-white{
+background-image: url("sprites.png");
+background-position: -164px -412px;
+width: 20px;
+height: 20px;
+}
+.left-orange{
+background-image: url("sprites.png");
+background-position: -140px -375px;
+width: 22px;
+height: 22px;
+}
+.light-green{
+background-image: url("sprites.png");
+background-position: -74px -377px;
+width: 14px;
+height: 23px;
+}
+.messages-green{
+background-image: url("sprites.png");
+background-position: -71px -80px;
+width: 58px;
+height: 65px;
+}
+.mini-logout{
+background-image: url("sprites.png");
+background-position: -66px -440px;
+width: 40px;
+height: 40px;
+}
+.profile-3-blue{
+background-image: url("sprites.png");
+background-position: 0 -378px;
+width: 60px;
+height: 30px;
+}
+.profile-32-gray{
+background-image: url("sprites.png");
+background-position: 0 -413px;
+width: 60px;
+height: 30px;
+}
+.profile-36-blue{
+background-image: url("sprites.png");
+background-position: 0 -450px;
+width: 60px;
+height: 30px;
+}
+.promotions-blue{
+background-image: url("sprites.png");
+background-position: 0 0;
+width: 58px;
+height: 69px;
+}
+.promotions-green{
+background-image: url("sprites.png");
+background-position: 0 -74px;
+width: 58px;
+height: 69px;
+}
+.right-orange{
+background-image: url("sprites.png");
+background-position: -165px -375px;
+width: 22px;
+height: 22px;
+}
+.Search{
+background-image: url("sprites.png");
+background-position: -130px -408px;
+width: 23px;
+height: 22px;
+}
+.settings-task{
+background-image: url("sprites.png");
+background-position: -102px -380px;
+width: 20px;
+height: 20px;
+}
+.settings-white{
+background-image: url("sprites.png");
+background-position: -97px -413px;
+width: 20px;
+height: 20px;
+}
+.twitter-rollover{
+background-image: url("sprites.png");
+background-position: -138px -439px;
+width: 16px;
+height: 16px;
+}
+.twitter{
+background-image: url("sprites.png");
+background-position: -138px -464px;
+width: 16px;
+height: 16px;
+}
+.up-blue{
+background-image: url("sprites.png");
+background-position: -74px -411px;
+width: 14px;
+height: 9px;
+}
+.youtube-rollover{
+background-image: url("sprites.png");
+background-position: -112px -438px;
+width: 16px;
+height: 16px;
+}
+.youtube{
+background-image: url("sprites.png");
+background-position: -113px -463px;
+width: 16px;
+height: 16px;
+}
