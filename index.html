@@ -12,6 +12,8 @@
 
     <!-- link to sprites -->
     <link href="css/sprites.css" type="text/css" rel="stylesheet">
+    <link href="css/sprites-2.css" type="text/css" rel="stylesheet">
+    <link href="css/sprites-3.css" type="text/css" rel="stylesheet">
 
     <!--customCSS-->
     <link href="css/custom.css" type="text/css" rel= "stylesheet">
@@ -25,82 +27,112 @@
   </head>
 
   <body>
-
+<!-- top blue container -->
     <div class="container-fluid" id="mini">
 
       <!--MINI OF RALEIGH-->
       <div class="container">
-        <div class="row header-text">
-          <div class="col-md-12">
 
+        <div class="col-md-12 row header-text">
+
+            <!--menu space -->
+            <div class="col-md-8">
+            </div>
             <!--begin menu-->
-            <div class="col-md-3" id="mini-menu">
-              <a class="mini header-links" href="#">MINI of Raleigh</a>
-              <a class="help header-links" href="#">bawe</a>
-              <a class="settings header-links" href="#">cog</a>
+            <div class="col-md-4" id="mini-menu">
+              <ul class="list-inline right">
+                <li><a class="mini header-links" href="#">MINI of Raleigh</a></li>
+                <li><a class="help header-links help-white sprite" href="#"></a></li>
+                <li><a class="settings header-links settings-white sprite" href="#"></a></li>
+              </ul>
             </div>
 
-          </div>
         </div>
+
       </div>
+
+    <!--close top blue container -->
     </div>
 
       <!--Header with icons-->
     <div class="container-fluid" id="menu">
       <div class="row">
-        <div class="container">
-          <div class="col-md-2 menu-icons dashboard-green sprite"></div>
-          <div class="col-md-2 menu-icons customers-green sprite"></div>
-          <div class="col-md-2 menu-icons messages-green sprite"></div>
-          <div class="col-md-2 menu-icons promotions-green sprite"></div>
-          <div class="col-md-2">X</div>
-          <div class="col-md-2 menu-icons analytics-green sprite"></div>
+        <div class="col-md-3">
+        </div>
+
+        <div class="container icon-content">
+          <ul class="list-inline center">
+            <li><div class="col-md-1"><a class="menu-icons dashboard-green sprite" href="index.html"></a></div></li>
+            <li><div class="col-md-1"><a class="menu-icons customers-green sprite" href="#"></a></div></li>
+            <li><div class="col-md-1"><a class="menu-icons messages-green sprite" href="#"></a></div></li>
+            <li><div class="col-md-1"><a class="menu-icons promotions-green sprite" href="#"></a></div></li>
+            <li><div class="col-md-1"><a class="menu-icons page-creator-green sprite" href="#"></a></div></li>
+            <li><div class="col-md-1"><a class="menu-icons analytics-green sprite" href="#"></a></div></li>
+          </ul>
+
+          <div class="col-md-3">
+          </div>
+
         </div>
       </div>
     </div>
 
     <!--body beneath header and icons-->
-    <br>
     <div class="container">
 
     <!--dashboard-->
+        <br>
         <div class="container row" id="dash">
-          <div class="col-md-9">
+          <div class="col-md-3">
             <div>
               <h1>Dashboard</h1>
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-9">
+
+            <div class="white-inside">
+
             <div class="form-group" id="form">
-              <input type="search" class="form-control">
+              <input type="search" class="form-control" id="blue-search">
               <a href="#" class="Search sprite"></a>
             </div>
+
+          </div>
+
           </div>
         </div>
 
   <!--gray border -->
-  <div class="container gray-border">
+  <div class="container" id="content-background">
 
+  <!--white background-->
+  <div class="white-inside">
   <!--announcements-->
-  <div class="row">
+  <div class="row announcement-tb">
 
           <div class="col-md-2">
             <h2>ANNOUNCEMENTS</h2>
           </div>
 
-          <div class="col-md-9" id="announcment-box">
-            <p id="announcement-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+          <div class="col-md-9">
+            <p class="announcement-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
           </div>
 
-          <div class="col-md-1">X</div>
+          <!--orange arrows -->
+          <div class="col-md-1">
+            <ul class="list-inline announcement-text">
+              <li><a class="left-orange sprite" href="#"></a></li>
+              <li><a class="right-orange sprite" href="#"></a></li>
+            </ul>
+          </div>
         </div>
 
   <!--crux-->
         <div class="row">
 
-          <!--announcement / recommendation sidebar -->
-          <div class="col-md-4 container">
+          <!--task / recommendation sidebar -->
+          <div class="col-md-4 container left-side">
 
                 <!-- tasks -->
           <div>
@@ -108,54 +140,55 @@
               <h3 id="tasks">Tasks<span class="glyphicon glyphicon-cog" aria-hidden="true" id="task-icon"></span></h3>
             </a>
 
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td class="s-1-gray sprite"></td>
-                  <td class="task-list">Welcome Contacts</td>
-                  <td class="profile-32-gray sprite"></td>
-                </tr>
-                <tr>
-                  <td class="s-2-green sprite"></td>
-                  <td class="task-list">Provide Responses</td>
-                  <td class="profile-36-blue sprite"></td>
-                </tr>
-                <tr>
-                  <td class="s-3-green sprite"></td>
-                  <td class="task-list">Review Activity</td>
-                  <td class="profile-36-blue sprite"></td>
-                </tr>
-                <tr>
-                 <td class="s-4-green sprite"></td>
-                 <td class="task-list">Reach Out</td>
-                 <td class="profile-3-blue sprite"></td>
-                </tr>
-              </tbody>
-            </table>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td><a>1</a></td>
+                    <td class="rec-list">Welcome Contacts</td>
+                    <td><a>4</a></td>
+                  </tr>
+                  <tr>
+                    <td><a>2</a></td>
+                    <td class="rec-list">Provide Responses</td>
+                    <td><a>4</a></td>
+                  </tr>
+                  <tr>
+                    <td><a>3</a></td>
+                    <td class="rec-list">Review Activity</td>
+                    <td><a>4</a></td>
+                  </tr>
+                  <tr>
+                   <td><a>4</a></td>
+                   <td class="rec-list">Reach Out</td>
+                   <td><a>4</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
           </div>
 
                 <!-- recommendations -->
                 <div>
                   <a href="#">
-                    <h3>Recommendations</h3>
+                    <h3 id="recommendations">Recommendations</h3>
                   </a>
 
                   <table class="table">
                     <tbody>
                       <tr>
-                        <td class="article-green sprite"></td>
+                        <td><a class="article-green sprite"></a></td>
                         <td class="rec-list">7 Steps to getting more Fans</td>
                       </tr>
                       <tr>
-                        <td class="article-green sprite"></td>
+                        <td><a class="article-green sprite"></a></td>
                         <td class="rec-list">Increase traction with more interactions</td>
                       </tr>
                       <tr>
-                        <td class="check-green sprite"></td>
+                        <td><a class="check-green sprite"></a></td>
                         <td class="rec-list">Creating a promotion</td>
                       </tr>
                       <tr>
-                       <td class="light-green sprite"></td>
+                       <td><a class="tip-green sprite"></a></td>
                        <td class="rec-list">Share more</td>
                       </tr>
                     </tbody>
@@ -167,47 +200,85 @@
 
           <!--analytics div-->
 
-            <div class="col-md-8">
-              <div>
-                <h3>Analytics</h3>
+            <div class="col-md-8 analytics-container">
+                <div class=row>
+                  <h3 id="analytics">Analytics</h3>
+                  <br>
+                </div>
+
+            <div class="row">
+              <div class="col-md-5">
+                <p class="analytics-text">Activity</p>
+                <span class="main-graph sprite"></span>
+              </div>
+              <br>
+              <div class="col-md-3 right-side">
+                <p class="analytics-text">Channels</p>
+                <span class="channels-1 sprite"></span>
+                <p class="analytics-text">Referrals</p>
+                <span class="channels-2 sprite"></span>
               </div>
             </div>
 
+            </div>
+
+
+<!--charts-->
+            <div class="col-md-8 analytics-container">
+              <div class="row">
+                Graphs go here!
+              </div>
+            </div>
+<!--did you know-->
+            <div class="did-you-know end-container">
+              <div class="row">
+              </div>
+            </div>
+<!--close crux-->
         </div>
 
-  <!--close gray border-->
+  <!--close white inside-->
   </div>
 
-  <!--ads-->
+  <!--ads  -->
+  <div id="ad-block">
 
-        <div class="row" id="ad">
-
-          <!-- Ad 1 -->
-          <div class="col-md-4">
-            <div class="adspace-1">
-              <div class="box">
-                <img src="img/ad-1.png" alt="ad-1">
-              </div>
-            </div>
-          </div>
-
-          <!-- Ad 2 -->
-          <div class="col-md-4">
-            <div class="adspace-2">
-              <div class="box">
-                  <img src="img/ad-2.png" id="ad-2" alt="ad-2">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="adspace-3">
-              <div class="box">
-                <img src="img/ad-3.png" id="ad-3" alt="ad-2">
-              </div>
-            </div>
-          </div>
+    <!-- Ad 1 -->
+    <div class="col-md-4">
+      <div class="adspace-1">
+        <div class="box">
+          <a href="#">
+            <img src="img/ad-1.png" alt="ad-1">
+          </a>
         </div>
+      </div>
+    </div>
+
+    <!-- Ad 2 -->
+    <div class="col-md-4">
+      <div class="adspace-2">
+        <div class="box">
+          <a href="#">
+            <img src="img/ad-2.png" id="ad-2" alt="ad-2">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ad 3-->
+    <div class="col-md-4">
+      <div class="adspace-3">
+        <div class="box">
+          <a href="#">
+            <img src="img/ad-3.png" id="ad-3" alt="ad-2">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- close ads  -->
+  </div>
 
     <!--close body container-->
     </div>
@@ -215,32 +286,38 @@
 
     <!--footer-->
         <br>
-        <div class="container-fluid" id="footer">
-          <div class="row footer-text">
-            <!--space-->
-              <div class="col-md-1">
-              </div>
 
-                <div class="col-md-3">
-                  <a class="tutorials" href="#">Tutorials</a>
-                  <a class="support" href="#">Support</a>
-                  <a class="blog" href="#">Blog</a>
-                </div>
+<!--final footer -->
+<div class="row" id="footer-1">
 
-              <div class="col-md-4">
-                  <a href="#" class="footer-links">Ariel Winter</a> likes your <a href="#" class="footer-links">Win A Cooper Sweepstakes</a> promotion.
-                  <a href="#" class="up-blue sprite"></a>
-              </div>
+  <div class="col-md-3 col-md-offset-1 border-right foot-pad">
+    <!--offset code from getbootstrap.com -->
+    <a class="tutorials" href="#">Tutorials</a>
+    <a class="support" href="#">Support</a>
+    <a class="blog" href="#">Blog</a>
+  </div>
+  <!-- offset code http://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp-->
 
-              <div class="col-md-4">
-                <a href="#" class="mini-logout sprite"></a>
-                <a class="footer-links logout" href="#">Logout</a>
+  <div class="col-md-5 border-right foot-pad">
+    <a href="#" class="footer-links">Ariel Winter</a> likes your <a href="#" class="footer-links">Win A Cooper Sweepstakes</a> promotion.
+    <a href="#" class="up-blue sprite right"></a>
+  </div>
 
-              </div>
+  <div class="col-md-3">
+    <div class="mini-logout foot-pad-mini inline"></div>
+    <a class="footer-links logout foot-pad" href="#">Logout</a>
+    <span>
+      <a href="#" class="facebook sprite inline foot-pad"></a>
+      <a href="#" class="twitter sprite inline foot-pad"></a>
+      <a href="#" class="foursquare sprite inline foot-pad"></a>
+      <a href="#" class="youtube sprite inline foot-pad"></a>
+    </span>
+  </div>
 
-            </div>
-          </div>
-
+  <div class="col-md-1">
+  </div>
+<!-- close footer -->
+</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
