@@ -62,12 +62,12 @@
 
         <div class="container icon-content">
           <ul class="list-inline center">
-            <li><div class="col-md-1"><a class="menu-icons dashboard-green sprite" href="index.html"></a></div></li>
-            <li><div class="col-md-1"><a class="menu-icons customers-green sprite" href="#"></a></div></li>
-            <li><div class="col-md-1"><a class="menu-icons messages-green sprite" href="#"></a></div></li>
-            <li><div class="col-md-1"><a class="menu-icons promotions-green sprite" href="#"></a></div></li>
-            <li><div class="col-md-1"><a class="menu-icons page-creator-green sprite" href="#"></a></div></li>
-            <li><div class="col-md-1"><a class="menu-icons analytics-green sprite" href="#"></a></div></li>
+            <li><div class="col-md-1"><a class="dashboard-green sprite" href="index.html"></a></div></li>
+            <li><div class="col-md-1"><a class="customers-green sprite" href="#"></a></div></li>
+            <li><div class="col-md-1"><a class="messages-green sprite" href="#"></a></div></li>
+            <li><div class="col-md-1"><a class="promotions-green sprite" href="#"></a></div></li>
+            <li><div class="col-md-1"><a class="page-creator-green sprite" href="#"></a></div></li>
+            <li><div class="col-md-1"><a class="analytics-green sprite" href="#"></a></div></li>
           </ul>
 
           <div class="col-md-3">
@@ -78,11 +78,10 @@
     </div>
 
     <!--body beneath header and icons-->
-    <div class="container">
+    <div class="container" id="main-content">
 
     <!--dashboard-->
-        <br>
-        <div class="container row" id="dash">
+        <div class="row" id="dash">
           <div class="col-md-3">
             <div>
               <h1>Dashboard</h1>
@@ -121,51 +120,58 @@
 
           <!--orange arrows -->
           <div class="col-md-1">
-            <ul class="list-inline announcement-text">
+            <ul class="list-inline announcement-text right">
               <li><a class="left-orange sprite" href="#"></a></li>
               <li><a class="right-orange sprite" href="#"></a></li>
             </ul>
           </div>
         </div>
 
-  <!--crux-->
+  <!--tasks, recommendations, analytics-->
         <div class="row">
 
           <!--task / recommendation sidebar -->
-          <div class="col-md-4 container left-side">
+          <div class="col-md-4 left-side">
 
                 <!-- tasks -->
-          <div>
-            <a href="#">
               <h3 id="tasks">Tasks<span class="glyphicon glyphicon-cog" aria-hidden="true" id="task-icon"></span></h3>
-            </a>
 
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td><a>1</a></td>
-                    <td class="rec-list">Welcome Contacts</td>
-                    <td><a>4</a></td>
-                  </tr>
-                  <tr>
-                    <td><a>2</a></td>
-                    <td class="rec-list">Provide Responses</td>
-                    <td><a>4</a></td>
-                  </tr>
-                  <tr>
-                    <td><a>3</a></td>
-                    <td class="rec-list">Review Activity</td>
-                    <td><a>4</a></td>
-                  </tr>
-                  <tr>
-                   <td><a>4</a></td>
-                   <td class="rec-list">Reach Out</td>
-                   <td><a>4</a></td>
-                  </tr>
-                </tbody>
-              </table>
+              <div class="row task-list">
+                <span>
+                  <a href="#" class="task-link">
+                  <span class="green-circle">1</span>
+                  <span class="task-space">Welcome Contacts</span>
+                  <span>32</span>
+                </span>
+              </div>
 
-          </div>
+              <div class="row task-list">
+                <span>
+                  <a href="#" class="task-link">
+                  <span class="green-circle">2</span>
+                  <span class="task-space">Provide Responses</span>
+                  <span>36</span>
+                </span>
+              </div>
+
+              <div class="row task-list">
+                <span>
+                  <a href="#" class="task-link">
+                  <span class="green-circle">3</span>
+                  <span class="task-space">Review Activity</span>
+                  <span>36</span>
+                </span>
+              </div>
+
+              <div class="row task-list">
+                <span>
+                  <a href="#" class="task-link">
+                  <span class="green-circle">4</span>
+                  <span class="task-space">Reach Out</span>
+                  <span>3</span>
+                </span>
+              </div>
+
 
                 <!-- recommendations -->
                 <div>
@@ -173,26 +179,52 @@
                     <h3 id="recommendations">Recommendations</h3>
                   </a>
 
-                  <table class="table">
-                    <tbody>
-                      <tr>
-                        <td><a class="article-green sprite"></a></td>
-                        <td class="rec-list">7 Steps to getting more Fans</td>
-                      </tr>
-                      <tr>
-                        <td><a class="article-green sprite"></a></td>
-                        <td class="rec-list">Increase traction with more interactions</td>
-                      </tr>
-                      <tr>
-                        <td><a class="check-green sprite"></a></td>
-                        <td class="rec-list">Creating a promotion</td>
-                      </tr>
-                      <tr>
-                       <td><a class="tip-green sprite"></a></td>
-                       <td class="rec-list">Share more</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="row recommendation-list">
+                    <a href="#" class="recommendation-link">
+                      <div class="col-md-2">
+                        <span class="article-green sprite task-space"></span>
+                      </div>
+
+                      <div class="col-md-10">
+                        7 Steps to Getting More Fans
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="row recommendation-list">
+                    <a href="#" class="recommendation-link">
+                      <div class="col-md-2">
+                        <span class="article-green sprite task-space"></span>
+                      </div>
+
+                      <div class="col-md-10">
+                        Increase Traction with More Interactions
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="row recommendation-list">
+                    <a href="#" class="recommendation-link">
+                        <div class="col-md-2">
+                          <span class="check-green sprite task-space"></span>
+                        </div>
+                        <div class="col-md-10">
+                          Creating a Promotion
+                        </div>
+                    </a>
+                  </div>
+
+                  <div class="row recommendation-list">
+                    <a href="#" class="recommendation-link">
+                      <div class="col-md-2">
+                        <span class="tip-green sprite task-space"></span>
+                      </div>
+                      <div class="col-md-10">
+                        Share More
+                      </div>
+                    </a>
+                  </div>
+          <!--end recommendations-->
                 </div>
 
           <!-- close side div -->
@@ -207,10 +239,27 @@
                 </div>
 
             <div class="row">
-              <div class="col-md-5">
-                <p class="analytics-text">Activity</p>
-                <span class="main-graph sprite"></span>
+              <div class="col-md-9">
+                <div class="col-md-5">
+                  <p class="analytics-text">Activity</p>
+                </div>
+                <div class="col-md-7 btn-group right">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    6/28/11 - 7/03/11   <span class="glyphicon glyphicon-chevron-up up" aria-hidden="true"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">6/28/11</a></li>
+                    <li><a href="#">6/29/11</a></li>
+                    <li><a href="#">6/30/11</a></li>
+                    <li><a href="#">7/01/11</a></li>
+                    <li><a href="#">7/02/11</a></li>
+                    <li><a href="#">7/03/11</a></li>
+                  </ul>
+                </div>
+
+                <img src="img/main-graph.png">
               </div>
+
               <br>
               <div class="col-md-3 right-side">
                 <p class="analytics-text">Channels</p>
@@ -248,7 +297,7 @@
       <div class="adspace-1">
         <div class="box">
           <a href="#">
-            <img src="img/ad-1.png" alt="ad-1">
+            <img src="img/ad-1.png" id="ad-1" alt="ad-1">
           </a>
         </div>
       </div>
@@ -259,7 +308,9 @@
       <div class="adspace-2">
         <div class="box">
           <a href="#">
-            <img src="img/ad-2.png" id="ad-2" alt="ad-2">
+            <div class="inline">
+              <img src="img/ad-2.png" id="ad-2" alt="ad-2">
+            </div>
           </a>
         </div>
       </div>
