@@ -22,6 +22,7 @@ background-image: url("sprites-2.png");
 background-position: -292px -304px;
 width: 84px;
 height: 83px;
+margin-bottom: 20px;
 }
 .channels-2{
 background-image: url("sprites-2.png");
@@ -52,6 +53,7 @@ background-image: url("sprites-2.png");
 background-position: -168px 0;
 width: 195px;
 height: 86px;
+position: absolute;
 }
 .contacts-profile{
 background-image: url("sprites-2.png");
@@ -83,6 +85,7 @@ background-image: url("sprites-2.png");
 background-position: -368px 0;
 width: 196px;
 height: 86px;
+position: absolute;
 }
 .customers-profile{
 background-image: url("sprites-2.png");

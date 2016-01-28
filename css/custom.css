@@ -70,7 +70,7 @@ h3#analytics{
 h3#recommendations {
   padding-left: 1px;
   padding-bottom: 5px;
-  font-size: 2.5em;
+  font-size: 2em;
   text-decoration: none;
 }
 
@@ -79,11 +79,14 @@ h3#recommendations {
   color: #777777;
   font-size: 1.1em;
   padding-top: 17px;
+  text-align: center;
 }
 .analytics-text {
   color: #a0a0a0;
-  font-size: 1em;
+  font-size: .9em;
   text-transform: uppercase;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 div.form-group#form {
@@ -113,7 +116,8 @@ div.form-group#form {
   box-shadow: 0 4px 8px 0 rgba(0, 0.2, 0, 0), 0 6px 20px 0 rgba(0, 0.19, 0, 0);
   /* shadow http://www.w3schools.com/css/css3_shadows.asp */
   color: #b0b0b0;
-  height: 60px;
+  position: static;
+  height: 50px;
 }
 
 .mini-menu{
@@ -130,6 +134,7 @@ div.box {
   border-radius: 7px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
   height: 160px;
+  margin-bottom: 20px;
 }
 
 div.adspace-1 {
@@ -144,7 +149,7 @@ div.adspace-3 {
   padding-top: 0px;
 }
 
-#ad-block {
+.ad-block {
   background-color: #2498f4;
   height: 200px;
   padding: 20px 0px;
@@ -188,33 +193,6 @@ body, h1, h2, h3, p {
   display:block;
 }
 
-/* header elements */
-a.mini {
-  padding: 10px;
-  text-align: center;
-}
-
-a.help {
-  /*border-left-style: solid;
-  border-left-width: 3px;
-  border-left-color: #1c85d8;
-  */
-  padding: 10px;
-  text-align: center;
-}
-
-a.settings {
-  /*border-left-style: solid;
-  border-left-width: 3px;
-  border-left-color: #1c85d8;*/
-  padding-left: 10px;
-  text-align: center;
-}
-
-.header-text {
-  padding: 7px;
-  color: white;
-}
 
 a.header-links {
   color: #FFFFFF;
@@ -262,9 +240,9 @@ a.footer-links {
 }
 
 a.logout {
-  vertical-align: middle;
   font-weight: normal;
-  padding-left: 10px;
+  padding-right: 15px;
+  border-right: #eeeeee solid 1px;
 }
 
 
@@ -294,20 +272,24 @@ input#blue-search {
   background-image: url("css/sprites.png");
 }
 
-.right-side {
-  float: right;
-}
-
 .left-side {
   border-color: #eeeeee;
   border-style: solid;
   border-width: 1px;
+  border-bottom: none;
+  border-right: none;
+  border-top:none;
 }
 
 #analytics-container {
-  border-color: #eeeeee;
-  border-style: solid;
-  border-width: 1px;
+  border-bottom: #eeeeee solid 1px;
+  border-left:#eeeeee solid 1px;
+}
+
+#contacts-container {
+    border-bottom: #eeeeee solid 1px;
+    border-top: #eeeeee solid 1px;
+  }
 }
 
 .end-container {
@@ -369,14 +351,6 @@ input#blue-search {
   text-align: center;
 }
 
-#footer-1 {
-  background-color: linear-gradient(#f5f5f5, #fbfbfb);
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* shadow http://www.w3schools.com/css/css3_shadows.asp */
-  color: #b0b0b0;
-  height: 46px;
-}
-
 .border-right {
   border-right:1px;
   border-right-style: solid;
@@ -395,10 +369,6 @@ display: inline-block
 
 .foot-pad {
   padding-top: 10px;
-}
-
-.foot-pad-mini {
-  padding-top: 3px;
 }
 
 .foot-space {
@@ -434,6 +404,7 @@ a.task-link {
   text-decoration: none;
 }
 
+
 span.green-circle {
     display: inline-block;
     height: 30px;
@@ -450,8 +421,18 @@ span.green-circle {
 }
 /* code from Jose Rui Santos http://stackoverflow.com/questions/9358882/how-to-make-a-circle-around-content-using-css */
 
+.green-circle:hover{
+  background-color:#cccccc;
+}
+
+.task-gray:hover {
+  background-color:#cccccc;
+}
 .task-space {
   padding-left: 10px;
+}
+.task-link:hover {
+  color: #cccccc;
 }
 
 a.recommendation-link {
@@ -464,7 +445,7 @@ a.recommendation-link {
   border-bottom-color: #eeeeee;
   border-bottom-style: dotted;
   border-bottom-width: 2px;
-  border-spacing: 7px;
+  border-spacing: 2px;
   padding-left: 15px;
 }
 .sprite-rec {
@@ -473,4 +454,160 @@ a.recommendation-link {
 
 .up {
   color: #ff9b13
+}
+
+.analytics-text-1 {
+  color: #a0a0a0;
+  font-size: .9em;
+  text-transform: uppercase;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+#chart-border {
+  border-left-color: #DDDDDD;
+  border-left-style: solid;
+  border-left-width: 2px;
+}
+
+#social {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.checkbox {
+  padding: 15px;
+}
+
+.check-text {
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-size: .8em;
+  padding: 2px 4px;
+}
+
+.check-facebook {
+  background-color: #114570;
+}
+
+.check-twitter {
+  background-color: #2298f4;
+}
+
+.check-foursquare {
+  background-color: #3a599b;
+}
+
+.check-google {
+  background-color: #31cc66;
+}
+
+.user-box {
+  border: #f6f6f6 4px solid;
+  border: 4px;
+  height: 30px;
+  margin-top: 0px;
+  margin-right: 5px;
+  width: 40px;
+}
+
+.count {
+  float: right;
+  font-size: .7em;
+  padding-top: 7px;
+}
+
+.glyphicon-user {
+  font-size: .7em;
+  padding-top: -5px;
+}
+
+.help-white {
+  margin-top: 10px;
+
+  /*
+  border-left: solid 1px #1c85d8;
+  border-right: solid 1px #1c85d8;
+  */
+}
+
+
+#mini-menu {
+  text-align: right;
+}
+
+/* header elements */
+a.mini {
+  padding: 10px;
+  text-align: center;
+}
+
+a.help {
+  /*border-left-style: solid;
+  border-left-width: 3px;
+  border-left-color: #1c85d8;
+  */
+  padding: 10px;
+  text-align: center;
+}
+
+a.settings {
+  /*border-left-style: solid;
+  border-left-width: 3px;
+  border-left-color: #1c85d8;*/
+  padding-left: 10px;
+  text-align: center;
+}
+
+.header-content {
+  display: inline-block;
+}
+
+.spacer {
+  border-left: solid 1px #1c85d8;
+  border-right: solid 1px #1c85d8;
+}
+
+.pad {
+  margin-right: 10px;
+}
+
+.tiny-text {
+  font-size: .7em;
+  margin-bottom: -15px;
+}
+
+.for-charts {
+  padding-bottom: 20px;
+  padding-top:20px;
+  text-align: center;
+}
+
+.did-you-know {
+  padding-bottom:25px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.bottom-border {
+  border-bottom: #eeeeee solid 1px;
+}
+
+.top-border {
+  border-top: #eeeeee solid 1px;
+}
+
+.mini-logout {
+ border-right:#eeeeee solid 1px;
+}
+
+.bump {
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+#wrap {
+min-height: 100%;
+height: auto !important;
+margin: 0 auto -50px;
 }

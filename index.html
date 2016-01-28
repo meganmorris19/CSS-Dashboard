@@ -27,24 +27,26 @@
   </head>
 
   <body>
+  <div id="wrap">
 <!-- top blue container -->
     <div class="container-fluid" id="mini">
 
       <!--MINI OF RALEIGH-->
       <div class="container">
 
-        <div class="col-md-12 row header-text">
+        <div class="col-md-12 header-content">
 
             <!--menu space -->
             <div class="col-md-8">
             </div>
             <!--begin menu-->
             <div class="col-md-4" id="mini-menu">
-              <ul class="list-inline right">
-                <li><a class="mini header-links" href="#">MINI of Raleigh</a></li>
-                <li><a class="help header-links help-white sprite" href="#"></a></li>
-                <li><a class="settings header-links settings-white sprite" href="#"></a></li>
-              </ul>
+                <a class="mini header-links inline" href="#">MINI of Raleigh</a>
+                <span class="spacer"></span>
+                <a class="help header-links help-white sprite inline" href="#"></a>
+                <span class="spacer"></span>
+                <span class="pad"></span>
+                <a class="settings header-links settings-white sprite inline" href="#"></a>
             </div>
 
         </div>
@@ -125,6 +127,7 @@
               <li><a class="right-orange sprite" href="#"></a></li>
             </ul>
           </div>
+        <!--close announcement row -->
         </div>
 
   <!--tasks, recommendations, analytics-->
@@ -141,7 +144,13 @@
                   <a href="#" class="task-link">
                   <span class="green-circle">1</span>
                   <span class="task-space">Welcome Contacts</span>
-                  <span>32</span>
+
+                  <div class="user-box right">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <div class="count">32</div>
+                  </div>
+
+                  </a>
                 </span>
               </div>
 
@@ -150,7 +159,13 @@
                   <a href="#" class="task-link">
                   <span class="green-circle">2</span>
                   <span class="task-space">Provide Responses</span>
-                  <span>36</span>
+
+                  <div class="user-box right">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <div class="count">36</div>
+                  </div>
+
+                  </a>
                 </span>
               </div>
 
@@ -159,7 +174,13 @@
                   <a href="#" class="task-link">
                   <span class="green-circle">3</span>
                   <span class="task-space">Review Activity</span>
-                  <span>36</span>
+
+                  <div class="user-box right">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <div class="count">36</div>
+                  </div>
+
+                  </a>
                 </span>
               </div>
 
@@ -168,7 +189,12 @@
                   <a href="#" class="task-link">
                   <span class="green-circle">4</span>
                   <span class="task-space">Reach Out</span>
-                  <span>3</span>
+
+                  <span class="user-box right">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <span class="count">3</span>
+                  </span>
+                  </a>
                 </span>
               </div>
 
@@ -186,7 +212,8 @@
                       </div>
 
                       <div class="col-md-10">
-                        7 Steps to Getting More Fans
+                        <p class="tiny-text">Article<p>
+                        <p>7 Steps to Getting More Fans</p>
                       </div>
                     </a>
                   </div>
@@ -198,7 +225,8 @@
                       </div>
 
                       <div class="col-md-10">
-                        Increase Traction with More Interactions
+                        <p class="tiny-text">Article<p>
+                        <p>Increase Traction with More Interactions</p>
                       </div>
                     </a>
                   </div>
@@ -208,8 +236,10 @@
                         <div class="col-md-2">
                           <span class="check-green sprite task-space"></span>
                         </div>
+
                         <div class="col-md-10">
-                          Creating a Promotion
+                          <p class="tiny-text">Checklist<p>
+                          <p>Creating a Promotion</p>
                         </div>
                     </a>
                   </div>
@@ -219,78 +249,133 @@
                       <div class="col-md-2">
                         <span class="tip-green sprite task-space"></span>
                       </div>
+
                       <div class="col-md-10">
-                        Share More
+                        <p class="tiny-text">Tip<p>
+                        <p>Share More</p>
                       </div>
                     </a>
                   </div>
           <!--end recommendations-->
                 </div>
 
-          <!-- close side div -->
+          <!-- close side div (4 columns) -->
           </div>
 
-          <!--analytics div-->
 
-            <div class="col-md-8 analytics-container">
-                <div class=row>
+
+          <!--begin right side div (8 columns)-->
+
+            <div class="col-md-8" id="analytics-container">
                   <h3 id="analytics">Analytics</h3>
                   <br>
-                </div>
 
             <div class="row">
-              <div class="col-md-9">
-                <div class="col-md-5">
-                  <p class="analytics-text">Activity</p>
+                <div class="col-md-9">
+                  <div class="row">
+                        <div class="col-md-5">
+                          <p class="analytics-text">Activity</p>
+                        </div>
+                        <div class="col-md-7 btn-group right">
+                          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            6/28/11 - 7/03/11   <span class="glyphicon glyphicon-chevron-down up" aria-hidden="true"></span>
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">6/28/11</a></li>
+                            <li><a href="#">6/29/11</a></li>
+                            <li><a href="#">6/30/11</a></li>
+                            <li><a href="#">7/01/11</a></li>
+                            <li><a href="#">7/02/11</a></li>
+                            <li><a href="#">7/03/11</a></li>
+                          </ul>
+                        </div>
+                          <br>
+                          <br>
+                          <br>
+                    <div>
+                      <img src="img/main-graph.png" style="width:100%;" alt="main-graph">
+                    </div>
                 </div>
-                <div class="col-md-7 btn-group right">
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    6/28/11 - 7/03/11   <span class="glyphicon glyphicon-chevron-up up" aria-hidden="true"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">6/28/11</a></li>
-                    <li><a href="#">6/29/11</a></li>
-                    <li><a href="#">6/30/11</a></li>
-                    <li><a href="#">7/01/11</a></li>
-                    <li><a href="#">7/02/11</a></li>
-                    <li><a href="#">7/03/11</a></li>
-                  </ul>
-                </div>
-
-                <img src="img/main-graph.png">
               </div>
 
-              <br>
-              <div class="col-md-3 right-side">
-                <p class="analytics-text">Channels</p>
+            <div class="col-md-3" id="chart-border">
+              <span>
+                <p class="analytics-text-1">Channels</p>
                 <span class="channels-1 sprite"></span>
-                <p class="analytics-text">Referrals</p>
+
+                <p class="analytics-text-1">Referrals</p>
                 <span class="channels-2 sprite"></span>
-              </div>
+              </span>
             </div>
 
-            </div>
+          </div>
 
+          <div id="social">
+            <!--facebook-->
+            <div class="checkbox inline">
+              <span class="check-text check-facebook">
+               <input type="checkbox">Facebook
+             </span>
+           </div>
 
-<!--charts-->
-            <div class="col-md-8 analytics-container">
-              <div class="row">
-                Graphs go here!
-              </div>
-            </div>
-<!--did you know-->
-            <div class="did-you-know end-container">
-              <div class="row">
-              </div>
-            </div>
-<!--close crux-->
+           <!--Twitter-->
+           <div class="checkbox inline">
+             <span class="check-text check-twitter">
+              <input type="checkbox">Twitter
+            </span>
+          </div>
+
+           <!--Foursquare-->
+           <div class="checkbox inline">
+            <span class="check-text check-foursquare">
+              <input type="checkbox">Foursquare
+            </span>
+          </div>
+
+           <!--Google +-->
+           <div class="checkbox inline">
+            <span class="check-text check-google">
+              <input type="checkbox">Google+
+            </span>
+          </div>
+
+<!-- close social-->
         </div>
 
-  <!--close white inside-->
+<!--2 profiles -->
+<div class="row">
+  <div class="bottom-border">
+    <div class="col-md-6 for-charts">
+      <img src="img/full-contacts.png">
+    </div>
+
+    <div class="col-md-6 for-charts">
+      <img src="img/full-customers.png">
+    </div>
+  </div>
+</div>
+
+<!--dyk-->
+<div class="row border-top">
+  <div class="col-md-12">
+
+      <div class="did-you-know">
+      <img src="img/did-you-know.png" alt="did-you-know">
+    </div>
+  </div>
+<!--end dyk-->
+</div>
+
+
+
+    <!--close analytics container-->
+    </div>
+
+  <!--close everything-->
   </div>
 
   <!--ads  -->
-  <div id="ad-block">
+  <div class="ad-block">
 
     <!-- Ad 1 -->
     <div class="col-md-4">
@@ -326,21 +411,19 @@
         </div>
       </div>
     </div>
-  </div>
-
-<!-- close ads  -->
-  </div>
-
-    <!--close body container-->
-    </div>
-
+<!--close ads-->
+</div>
+</div>
+  <!-- close body container  -->
+</div>
+</div>
 
     <!--footer-->
         <br>
 
 <!--final footer -->
-<div class="row" id="footer-1">
-
+  <div class="container-fluid" id="footer-1">
+    <div class="row">
   <div class="col-md-3 col-md-offset-1 border-right foot-pad">
     <!--offset code from getbootstrap.com -->
     <a class="tutorials" href="#">Tutorials</a>
@@ -354,20 +437,27 @@
     <a href="#" class="up-blue sprite right"></a>
   </div>
 
-  <div class="col-md-3">
-    <div class="mini-logout foot-pad-mini inline"></div>
-    <a class="footer-links logout foot-pad" href="#">Logout</a>
+  <div class="col-md-1">
+    <div class="mini-logout"></div>
+  </div>
+
+  <div class="col-md-2 bump">
     <span>
+      <a class="footer-links logout" href="#">Logout</a>
       <a href="#" class="facebook sprite inline foot-pad"></a>
       <a href="#" class="twitter sprite inline foot-pad"></a>
       <a href="#" class="foursquare sprite inline foot-pad"></a>
       <a href="#" class="youtube sprite inline foot-pad"></a>
     </span>
+
   </div>
 
   <div class="col-md-1">
   </div>
+</div>
 <!-- close footer -->
+</div>
+<!--close wrap-->
 </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

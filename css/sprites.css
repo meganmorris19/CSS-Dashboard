@@ -143,6 +143,8 @@ background-image: url("sprites.png");
 background-position: -164px -412px;
 width: 20px;
 height: 20px;
+margin-left: 10px;
+margin-right:10px;
 }
 .left-orange{
 background-image: url("sprites.png");
@@ -179,6 +181,7 @@ background-image: url("sprites.png");
 background-position: -66px -440px;
 width: 40px;
 height: 40px;
+float: right;
 }
 .profile-3-blue{
 background-image: url("sprites.png");
@@ -265,6 +268,7 @@ background-image: url("sprites.png");
 background-position: -74px -411px;
 width: 14px;
 height: 9px;
+margin-top: 5px;
 }
 .youtube{
 background-image: url("sprites.png");
