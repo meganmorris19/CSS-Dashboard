@@ -27,7 +27,7 @@
   </head>
 
   <body>
-  <div id="wrap">
+
 <!-- top blue container -->
     <div class="container-fluid" id="mini">
 
@@ -117,7 +117,7 @@
           </div>
 
           <div class="col-md-9">
-            <p class="announcement-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+            <p class="announcement-text announcement-border">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
           </div>
 
           <!--orange arrows -->
@@ -300,10 +300,10 @@
 
             <div class="col-md-3" id="chart-border">
               <span>
-                <p class="analytics-text-1">Channels</p>
+                <span class="analytics-text-1">Channels</span>
                 <span class="channels-1 sprite"></span>
 
-                <p class="analytics-text-1">Referrals</p>
+                <span class="analytics-text-1">Referrals</span>
                 <span class="channels-2 sprite"></span>
               </span>
             </div>
@@ -346,11 +346,11 @@
 <div class="row">
   <div class="bottom-border">
     <div class="col-md-6 for-charts">
-      <img src="img/full-contacts.png">
+      <img src="img/full-contacts.png" alt="full-contacts">
     </div>
 
     <div class="col-md-6 for-charts">
-      <img src="img/full-customers.png">
+      <img src="img/full-customers.png" alt="full-customers">
     </div>
   </div>
 </div>
@@ -360,7 +360,7 @@
   <div class="col-md-12">
 
       <div class="did-you-know">
-      <img src="img/did-you-know.png" alt="did-you-know">
+      <img src="img/did-you-know.png" alt="did-you-know" style="z-index:-100">
     </div>
   </div>
 <!--end dyk-->
@@ -375,10 +375,10 @@
   </div>
 
   <!--ads  -->
-  <div class="ad-block">
-
+  <div>
+    <div class="row ad-block">
     <!-- Ad 1 -->
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-12">
       <div class="adspace-1">
         <div class="box">
           <a href="#">
@@ -389,7 +389,7 @@
     </div>
 
     <!-- Ad 2 -->
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-12 ad-block-1">
       <div class="adspace-2">
         <div class="box">
           <a href="#">
@@ -402,7 +402,7 @@
     </div>
 
     <!-- ad 3-->
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-12  ad-block-1">
       <div class="adspace-3">
         <div class="box">
           <a href="#">
@@ -417,14 +417,15 @@
   <!-- close body container  -->
 </div>
 </div>
+</div>
 
     <!--footer-->
         <br>
-
+  </body>
 <!--final footer -->
-  <div class="container-fluid" id="footer-1">
     <div class="row">
-  <div class="col-md-3 col-md-offset-1 border-right foot-pad">
+    <div class="container-fluid" id="footer-1">
+  <div class="col-md-3 col-sm-12 border-right foot-pad">
     <!--offset code from getbootstrap.com -->
     <a class="tutorials" href="#">Tutorials</a>
     <a class="support" href="#">Support</a>
@@ -432,16 +433,16 @@
   </div>
   <!-- offset code http://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp-->
 
-  <div class="col-md-5 border-right foot-pad">
+  <div class="col-md-6 col-sm-12 border-right foot-pad">
     <a href="#" class="footer-links">Ariel Winter</a> likes your <a href="#" class="footer-links">Win A Cooper Sweepstakes</a> promotion.
     <a href="#" class="up-blue sprite right"></a>
   </div>
 
-  <div class="col-md-1">
+  <div class="col-md-1 col-sm-6">
     <div class="mini-logout"></div>
   </div>
 
-  <div class="col-md-2 bump">
+  <div class="col-md-2 col-sm-6 bump">
     <span>
       <a class="footer-links logout" href="#">Logout</a>
       <a href="#" class="facebook sprite inline foot-pad"></a>
@@ -455,13 +456,13 @@
   <div class="col-md-1">
   </div>
 </div>
+</div>
 <!-- close footer -->
-</div>
-<!--close wrap-->
-</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-  </body>
+
+
 </html>

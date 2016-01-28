@@ -81,6 +81,10 @@ h3#recommendations {
   padding-top: 17px;
   text-align: center;
 }
+.announcement-border {
+  border-left: 1px #eeeeee solid;
+  border-right: 1px #eeeeee solid;
+}
 .analytics-text {
   color: #a0a0a0;
   font-size: .9em;
@@ -113,11 +117,12 @@ div.form-group#form {
 
 #footer-1 {
   background: linear-gradient(#f5f5f5, #fbfbfb);
-  box-shadow: 0 4px 8px 0 rgba(0, 0.2, 0, 0), 0 6px 20px 0 rgba(0, 0.19, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba (0, 0.2, 0, 0), 0 6px 20px 0 rgba(0, 0.19, 0, 0);
   /* shadow http://www.w3schools.com/css/css3_shadows.asp */
   color: #b0b0b0;
-  position: static;
+  position: relative;
   height: 50px;
+  padding-bottom:0;
 }
 
 .mini-menu{
@@ -157,6 +162,11 @@ div.adspace-3 {
   text-align: center;
 }
 
+.ad-block-1 {
+  background-color: #2498f4;
+  position: relative;
+  text-align: center;
+}
 
 
 /* images */
@@ -290,7 +300,6 @@ input#blue-search {
     border-bottom: #eeeeee solid 1px;
     border-top: #eeeeee solid 1px;
   }
-}
 
 .end-container {
   border-top-color: #eeeeee;
@@ -377,6 +386,7 @@ display: inline-block
 
 #main-content {
   padding: 10px;
+  padding-bottom: 0px;
 }
 
 /* override bootstrap */
@@ -519,7 +529,6 @@ a.recommendation-link {
 
 .glyphicon-user {
   font-size: .7em;
-  padding-top: -5px;
 }
 
 .help-white {
@@ -610,4 +619,9 @@ a.settings {
 min-height: 100%;
 height: auto !important;
 margin: 0 auto -50px;
+}
+
+.container-fluid#footer-1 {
+  padding-left: 0px;
+  margin-left: 15px;
 }
